@@ -230,7 +230,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "buyer_id",
+                      "widgetName": "buyer_id_input",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -1140,7 +1140,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "buyer_id.text"
+                "buyer_id_input.text"
               ],
               "timeoutInMillisecond": 10000
             }
