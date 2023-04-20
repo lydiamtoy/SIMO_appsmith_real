@@ -7,6 +7,10 @@
     {
       "id": "Seller Product Page",
       "isDefault": false
+    },
+    {
+      "id": "Buyer Admin",
+      "isDefault": false
     }
   ],
   "viewMode": false,

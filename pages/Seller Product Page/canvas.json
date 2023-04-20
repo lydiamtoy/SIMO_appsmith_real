@@ -254,7 +254,7 @@
                       ],
                       "labelPosition": "Top",
                       "labelStyle": "",
-                      "inputType": "TEXT",
+                      "inputType": "NUMBER",
                       "isDisabled": false,
                       "key": "ggyi5qmf27",
                       "labelTextSize": "0.875rem",
@@ -270,6 +270,7 @@
                       "label": "Buyer ID:",
                       "version": 2,
                       "parentId": "9iajbjo14c",
+                      "minNum": "1",
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
                       "isLoading": false,
@@ -277,7 +278,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "iconAlign": "left",
-                      "defaultText": "0",
+                      "defaultText": "",
                       "minDynamicHeight": 4
                     },
                     {
