@@ -1140,7 +1140,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "buyer_info_form.data"
+                "buyer_id_input.text"
               ],
               "timeoutInMillisecond": 10000
             }
