@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_requests",
+    "name": "get_orders",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/p/requests"
+        "url": "web:4000/p/orders-seller/{{get_orders_input.text}}"
       },
       "invalids": [],
       "messages": [],
@@ -37,17 +37,23 @@
       }
     },
     "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "datasourceUrl"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "get_orders_input.text"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Seller Admin_get_requests",
+  "id": "Seller Admin_get_orders",
   "deleted": false,
-  "gitSyncId": "6441ab153aa5f74599a5e598_6441ac853aa5f74599a5e59e"
+  "gitSyncId": "6441ab153aa5f74599a5e598_6441ae5f3aa5f74599a5e5a1"
 }
