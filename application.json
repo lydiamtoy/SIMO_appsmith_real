@@ -3,6 +3,10 @@
     {
       "id": "Seller Admin",
       "isDefault": true
+    },
+    {
+      "id": "Seller Product Page",
+      "isDefault": false
     }
   ],
   "viewMode": false,
