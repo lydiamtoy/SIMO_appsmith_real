@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "category_convert",
+    "pageId": "Buyer Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Buyer Admin_category_convert",
+  "deleted": false,
+  "gitSyncId": "6441ab153aa5f74599a5e598_6441d2853aa5f74599a5e5f7"
+}

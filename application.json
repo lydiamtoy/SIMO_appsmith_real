@@ -11,6 +11,10 @@
     {
       "id": "Buyer Admin",
       "isDefault": false
+    },
+    {
+      "id": "Buyer Order Page",
+      "isDefault": false
     }
   ],
   "viewMode": false,
