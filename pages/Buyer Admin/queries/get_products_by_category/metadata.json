@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/p/products/{{category_id.text}}"
+        "url": "web:4000/p/products/{{category_id.selectedOptionValue}}"
       },
       "invalids": [],
       "messages": [],
@@ -46,7 +46,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "category_id.text"
+      "category_id.selectedOptionValue"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
