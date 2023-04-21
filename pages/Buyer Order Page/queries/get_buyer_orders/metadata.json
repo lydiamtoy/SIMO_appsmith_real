@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_seller_info",
+    "name": "get_buyer_orders",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/s/get-seller/{{seller_id.text}}"
+        "url": "web:4000/p/orders-buyer/{{buyer_id_orders.text}}"
       },
       "invalids": [],
       "messages": [],
@@ -46,14 +46,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "seller_id.text"
+      "buyer_id_orders.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Buyer Order Page_get_seller_info",
+  "id": "Buyer Order Page_get_buyer_orders",
   "deleted": false,
-  "gitSyncId": "6441ab153aa5f74599a5e598_6441d4113aa5f74599a5e5fd"
+  "gitSyncId": "6441ab153aa5f74599a5e598_6441d6703aa5f74599a5e601"
 }
